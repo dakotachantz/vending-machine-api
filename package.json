@@ -1,0 +1,21 @@
+{
+  "name": "vending-machine-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2"
+  }
+}
