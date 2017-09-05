@@ -11,7 +11,6 @@ In previous lessons, we covered testing with Jest, test-driven development (TDD)
 A specification for the API is provided.
 
 ## Features  
----
 
 The following features must exist. Each one may have one than more test around it.
 
@@ -35,7 +34,6 @@ Note that this API does not require authentication.
 You can use either MongoDB or PostgreSQL for your data store.
 
 ## API specification  
----
 
 All responses from the API should be an object with a "status" key and a "data" key. Successful actions will have a status of "success" and failed actions will have a status of "fail." The "data" key will hold whatever output data is necessary.
 

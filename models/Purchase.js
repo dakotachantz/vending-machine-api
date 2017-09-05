@@ -1,20 +1,20 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const itemSchema = new Schema({
-    id: Number,
-    description: {
-        type: String,
-        required: true
-    },
-    price: {
+const purchaseSchema = new Schema({
+    id: String,
+    money_given: {
         type: Number,
         required: true
     },
-    quantity: {
+    money_required: {
+        type: Number,
+        required: true
+    },
+    total_money: {
         type: Number,
         required: true
     }
 });
 
-module.exports = mongoose.model("Item", itemSchema);
+module.exports = mongoose.model("Purchase", purchaseSchema);
